@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.menu{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+.menu h1{
+    margin-left: 10%;
+    text-align: center;
+    flex: 30%;
+}
+.menu nav{
+    margin-right: 10%;
+    padding: 10px;
+    flex: 60%;
+    text-align: right;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu nav a:hover{
+    opacity: 0.5;
+}
+#botao{
+    border-radius: 8px;
+    background: black;
+    color: white;
+}
+#botao:hover{
+    opacity: 1;
+    background: grey;
+}
+
+.comeco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-left: 5%;
+}
+.comeco article{
+    margin-left: 5%;
+    flex: 40%;
+}
+.comeco h2{
+    font-size: 45px;
+    color: rgb(0, 110, 255);
+}
+.comeco p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.comeco img{
+    flex: 40%;
+}
+
+.servicos{
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+}
+.servicos header{
+    text-align: center;
+}
+.servicos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: inline-block;
+    margin: 1%;
+    width: 250px;
+    width: 29%;
+    height: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 110, 255);
+}
+.card:hover{
+    display: none;
+}
+.card:hover + .card-oculto{
+    display: inline-block;
+}
+.card-oculto{
+    display: inline-block;
+    margin: 1%;
+    width: 250px;
+    width: 29%;
+    height: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 110, 255);
+    display: none;
+}
+.card img, .card-oculto img{
+    align-self: right;
+    width: 20%;
+}
+.card h3, .card-oculto h3{
+    text-align: center;
+}
+.card, .card-oculto p{
+    text-align: left;
+}
+
+footer{
+    width: 100%;
+    background: grey;
+    display: flex;
+    padding: 50px;
+    border: 1px solid black;
+}
+footer article{
+    padding: 100px;
+}
+footer h4{
+    font-size: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+} 
+
+
+
+
+/* #botao2{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 10px;
+}
+
+#botao2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+} */
