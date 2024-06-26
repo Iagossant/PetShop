@@ -6,6 +6,7 @@
 }
 
 .menu{
+    border-bottom: 1px solid #00000015;
     background: white;
     display: flex;
     justify-content: center;
